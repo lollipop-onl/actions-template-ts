@@ -1,13 +1,12 @@
 {
   "name": "actions-template-ts",
-  "description": "Actions template with TypeScript",
   "version": "1.0.0",
-  "type": "module",
-  "packageManager": "pnpm@8.10.0",
   "private": true,
+  "description": "Actions template with TypeScript",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "tsx src/index.ts"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@actions/core": "^1.10.1",
@@ -15,5 +14,10 @@
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "^20.8.9",
     "tsx": "^3.14.0"
-  }
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-packagejson": "^2.4.6"
+  },
+  "packageManager": "pnpm@8.10.0"
 }

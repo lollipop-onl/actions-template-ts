@@ -1,1 +1,1 @@
-console.log('Actions ready.');
+console.log("Actions ready.");
