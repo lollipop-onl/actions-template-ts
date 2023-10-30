@@ -1,0 +1,8 @@
+{
+  "name": "actions-template-ts",
+  "description": "Actions template with TypeScript",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@8.9.2",
+  "private": true
+}
