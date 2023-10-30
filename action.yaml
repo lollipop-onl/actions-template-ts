@@ -1,0 +1,8 @@
+# https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
+name: Template with TypeScript
+description: Actions Template with TypeScript
+author: lollipop-onl
+inputs: {}
+runs:
+  using: docker
+  image: Dockerfile
